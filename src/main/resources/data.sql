@@ -1,0 +1,1 @@
+INSERT INTO categories (id, user_id, category_name) VALUE(1, NULL, "Tasks") ON DUPLICATE KEY UPDATE id=id;
